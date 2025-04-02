@@ -1,3 +1,12 @@
+## [1.0.3](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.2...v1.0.3) (2025-04-02)
+
+### Chores
+
+* **deps:** update actions/checkout action to v4 ([89ebb66](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/89ebb66cf5861351291c77d33ab8ea06afc2455a))
+
+### Continuous Integration
+
+* **npm:** add release workflow ([94b2787](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/94b2787017ac3c804bf033c3ee7a9e404eff4a73))
 ## [1.0.2](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.1...v1.0.2) (2025-04-02)
 
 ### Chores
