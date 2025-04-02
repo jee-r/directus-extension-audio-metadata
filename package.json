@@ -32,11 +32,15 @@
 		"build": "directus-extension build",
 		"dev": "directus-extension build -w --no-minify",
 		"link": "directus-extension link",
-		"validate": "directus-extension validate"
+		"validate": "directus-extension validate",
+		"changelog": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md -s",
+		"version": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md -s && git add CHANGELOG.md"
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "13.0.4",
 		"@types/node": "^22.13.17",
+		"conventional-changelog-cli": "^5.0.0",
+		"conventional-changelog-conventionalcommits": "^8.0.0",
 		"typescript": "^5.8.2",
 		"vue": "^3.5.13"
 	},
