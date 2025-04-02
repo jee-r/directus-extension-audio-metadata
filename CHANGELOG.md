@@ -1,3 +1,16 @@
+## [1.0.4](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.3...v1.0.4) (2025-04-02)
+
+### Bug Fixes
+
+* **ci:** publish to gh npm pkg ([254b621](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/254b6213381e72922c06159b17ee7fcbb9468335))
+
+### Chores
+
+* update actions/upload-artifact to v4 ([aa93be4](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/aa93be463638d6c5fb82992ed0818e969846aafe))
+
+### Continuous Integration
+
+* upload package on npm ([325ce25](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/325ce2512fc0de9cb2e36905d5f5e5d3df8cccc4))
 ## [1.0.3](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.2...v1.0.3) (2025-04-02)
 
 ### Chores
