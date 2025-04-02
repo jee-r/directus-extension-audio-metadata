@@ -1,3 +1,8 @@
+## [1.0.2](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.1...v1.0.2) (2025-04-02)
+
+### Chores
+
+* generate a ReadMe ([9496746](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/949674677ace32ec9cd27aaf7cbce3b223e864a6))
 ## 1.0.1 (2025-04-02)
 
 ### Chores
