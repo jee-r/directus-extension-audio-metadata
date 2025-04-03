@@ -3,7 +3,10 @@
 	"description": "Get remote audio metadata from directus flow",
 	"icon": "extension",
 	"author": "Jee R",
-	"repository": "github.com/jee-r/directus-extension-audio-metadata",
+	"repository": {
+		"type": "git",
+		"url": "github.com/jee-r/directus-extension-audio-metadata.git"
+	},
 	"homepage": "https://github.com/jee-r/directus-extension-audio-metadata",
 	"license": "MIT",
 	"version": "1.0.8",
