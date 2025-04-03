@@ -1,3 +1,12 @@
+## [1.0.7](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.6...v1.0.7) (2025-04-03)
+
+### Bug Fixes
+
+* **ci:** separate step for publish and add permissions ([94c65b6](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/94c65b65aae0e85af2de285bca9f1a7a83abaecf))
+
+### Chores
+
+* **ci:** add a build check for PR and new branch ([bf31330](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/bf3133092612aad7382297b6f752b46cead4d2e2))
 ## [1.0.6](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.5...v1.0.6) (2025-04-03)
 
 ### Bug Fixes

@@ -6,7 +6,7 @@
 	"repository": "github.com/jee-r/directus-extension-audio-metadata",
 	"homepage": "https://github.com/jee-r/directus-extension-audio-metadata",
 	"license": "MIT",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"keywords": [
 		"directus",
 		"directus-extension",
