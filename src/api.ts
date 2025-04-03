@@ -5,7 +5,7 @@ type Options = {
 	fileKey: string;
 	maxBytes: number;
 	baseUrl: string;
-	accessToken: string;
+	accessToken: string | null | undefined;
 };
 export default defineOperationApi<Options>({
 	id: 'audio-metadata',
@@ -23,7 +23,7 @@ export default defineOperationApi<Options>({
 			const response = await fetch(assetUrl, {
 			  headers: {
 				Range: `bytes=0-${maxBytes - 1}`,
-				Authorization: `Bearer ${accessToken}`
+				...accessToken && { Authorization: `Bearer ${accessToken}` }
 			  }
 			});
 
