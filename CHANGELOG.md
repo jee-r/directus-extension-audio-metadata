@@ -1,3 +1,13 @@
+## [1.0.8](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.7...v1.0.8) (2025-04-03)
+
+### Bug Fixes
+
+* **ci:** add package write permission ([ba5150c](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/ba5150c6edc0139e7d21f8e4f7983d722ffdd51c))
+* **ci:** build before validate ([5ce7480](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/5ce74808e321fda3e1af1b92e7fbc4f80b15c04b))
+
+### Chores
+
+* **ci:** add manual trigger for build_test action ([a828a7b](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/a828a7b23c35c23fadeacaccd6570cd4eccb44e7))
 ## [1.0.7](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.6...v1.0.7) (2025-04-03)
 
 ### Bug Fixes
