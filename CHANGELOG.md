@@ -1,3 +1,8 @@
+## [1.0.9](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.8...v1.0.9) (2025-04-03)
+
+### Bug Fixes
+
+* update repo to match npmjs requirements ([a52ba9c](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/a52ba9c8896ebc74b0b36cbde3ac4e6222af166b))
 ## [1.0.8](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.7...v1.0.8) (2025-04-03)
 
 ### Bug Fixes
