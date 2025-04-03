@@ -5,9 +5,12 @@
 	"author": "Jee R",
 	"repository": {
 		"type": "git",
-		"url": "github.com/jee-r/directus-extension-audio-metadata.git"
+		"url": "git+https://github.com/jee-r/directus-extension-audio-metadata.git"
 	},
-	"homepage": "https://github.com/jee-r/directus-extension-audio-metadata",
+	"homepage": "https://github.com/jee-r/directus-extension-audio-metadata#readme",
+	"bugs": {
+        "url": "https://github.com/codihaus/directus-generate-migration/issues"
+    },
 	"license": "MIT",
 	"version": "1.0.9",
 	"keywords": [
