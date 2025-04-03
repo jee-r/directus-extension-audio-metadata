@@ -21,8 +21,11 @@ on:
 
 jobs:
   build:
-    name: Build and publish artifacts
+    name: Build 
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
@@ -31,7 +34,7 @@ jobs:
           node-version: '20.x'
       - name: Install dependencies
         run: npm install 
-      - name: Validate
-        run: npm run validate
       - name: Build
         run: npm run build
+      - name: Validate
+        run: npm run validate
