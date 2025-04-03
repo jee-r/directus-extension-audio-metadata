@@ -1,3 +1,8 @@
+## [1.0.5](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.4...v1.0.5) (2025-04-03)
+
+### Bug Fixes
+
+* make access token Optional ([1461a5d](https://example.com/github.com/jee-r/directus-extension-audio-metadata/commit/1461a5d4e52bad436ba4bd9c3f9f502d8abeb527))
 ## [1.0.4](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.3...v1.0.4) (2025-04-02)
 
 ### Bug Fixes
