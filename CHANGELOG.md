@@ -1,3 +1,8 @@
+## [1.0.10](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.9...v1.0.10) (2025-04-13)
+
+### Bug Fixes
+
+* **deps:** update dependency music-metadata to v11.1.1 ([8829b42](https://github.com/jee-r/directus-extension-audio-metadata/commit/8829b42977c1d95458e71e64171c1736a7d18e3f))
 ## [1.0.9](https://example.com/github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.8...v1.0.9) (2025-04-03)
 
 ### Bug Fixes

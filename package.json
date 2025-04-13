@@ -9,10 +9,10 @@
 	},
 	"homepage": "https://github.com/jee-r/directus-extension-audio-metadata#readme",
 	"bugs": {
-        "url": "https://github.com/codihaus/directus-generate-migration/issues"
-    },
+		"url": "https://github.com/codihaus/directus-generate-migration/issues"
+	},
 	"license": "MIT",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"keywords": [
 		"directus",
 		"directus-extension",
