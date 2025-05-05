@@ -1,3 +1,15 @@
+## [1.0.11](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.10...v1.0.11) (2025-05-05)
+
+### Bug Fixes
+
+* **deps:** update dependency music-metadata to v11.2.1 ([5e0bb19](https://github.com/jee-r/directus-extension-audio-metadata/commit/5e0bb19adbacff1335e4934e788c6bed5a0afa1b))
+
+### Chores
+
+* **deps:** update dependency @directus/extensions-sdk to v13.1.0 ([11a343f](https://github.com/jee-r/directus-extension-audio-metadata/commit/11a343ff67560440119a793f561275df299a12b8))
+* **deps:** update dependency @types/node to v22.15.3 ([b2875e4](https://github.com/jee-r/directus-extension-audio-metadata/commit/b2875e4110148144f40f2a3e56760e3867c84bed))
+* **deps:** update dependency node to v22 ([5427a87](https://github.com/jee-r/directus-extension-audio-metadata/commit/5427a879ea9e49f575c85efeb2684d181f8eb199))
+* **deps:** update dependency typescript to v5.8.3 ([00aa8bc](https://github.com/jee-r/directus-extension-audio-metadata/commit/00aa8bc1d17ea9cadf6e48a2d3ec435e0fe36f2c))
 ## [1.0.10](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.9...v1.0.10) (2025-04-13)
 
 ### Bug Fixes
