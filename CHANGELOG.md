@@ -1,3 +1,8 @@
+## [1.1.0](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.14...v1.1.0) (2025-06-16)
+
+### Features
+
+* add an option to download the full file insted just the header file ([b52d871](https://github.com/jee-r/directus-extension-audio-metadata/commit/b52d87104a3eee355027ac851b359d28b6a1e7e2))
 ## [1.0.14](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.0.13...v1.0.14) (2025-06-04)
 
 ### Bug Fixes
