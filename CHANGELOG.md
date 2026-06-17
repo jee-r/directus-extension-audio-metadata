@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.1.1...v1.2.0) (2026-06-17)
+
+### Chores
+
+* **deps:** update actions/setup-node action to v6 ([1b08093](https://github.com/jee-r/directus-extension-audio-metadata/commit/1b080936bd8b44046b447af8d81055c2443a2466))
+* **deps:** update extensions-sdk to v18 and add Directus 11/12 host compat ([7c5ca5d](https://github.com/jee-r/directus-extension-audio-metadata/commit/7c5ca5da3c9909b4357f65fdb3f5325c2f21a395))
 ## [1.1.1](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.1.0...v1.1.1) (2025-06-16)
 
 ### Bug Fixes
