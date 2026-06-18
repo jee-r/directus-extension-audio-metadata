@@ -44,7 +44,7 @@
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "18.0.0",
-		"@types/node": "^22.13.17",
+		"@types/node": "^24.0.0",
 		"conventional-changelog-cli": "^5.0.0",
 		"conventional-changelog-conventionalcommits": "^8.0.0",
 		"typescript": "^5.8.2",
