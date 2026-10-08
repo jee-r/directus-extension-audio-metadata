@@ -15,9 +15,16 @@ pnpm run dev         # watch build, no minify (directus-extension build -w --no-
 pnpm run link        # link extension into a local Directus instance (directus-extension link)
 pnpm run validate    # validate the extension (directus-extension validate)
 pnpm run changelog   # regenerate CHANGELOG.md from conventional commits
+pnpm test             # run the vitest suite (test/*.test.ts)
 ```
 
-There is no test suite and no linter configured — `pnpm run validate` (via extensions-sdk) is the main correctness check, along with `tsc` type-checking during build.
+Run a single test file with `pnpm exec vitest run test/api.test.ts`, or `pnpm exec vitest` for watch mode.
+
+There is no linter configured — `pnpm run validate` (via extensions-sdk) and `tsc` type-checking during build are the other correctness checks alongside the test suite.
+
+### Tests
+
+`test/api.test.ts` exercises `src/api.ts`'s handler by stubbing `fetch` and serving bytes from small fixture files in `test/fixtures/` (`short.mp3`, `short.flac`, `short.wav` — 2s sine-wave tones generated with ffmpeg, the mp3 carrying ID3 tags). The mock fetch inspects the `Range` header on the request and slices the fixture buffer accordingly, so the same fixtures cover both the header-only range-read path and the `downloadFullFile` path. `music-metadata`'s real `parseBuffer` runs unmocked — only the network fetch is stubbed — so duration/format parsing is verified against real codec output, not an assumption about what the library returns.
 
 Note: CI (`.github/workflows/*.yml`) and `package-lock.json` use npm, since that's what GitHub Actions runs — use `npm`/`npm ci` only when mirroring/debugging those workflows; use `pnpm` for local development per usual.
 
