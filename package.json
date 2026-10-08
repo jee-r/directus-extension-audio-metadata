@@ -39,6 +39,7 @@
 		"dev": "directus-extension build -w --no-minify",
 		"link": "directus-extension link",
 		"validate": "directus-extension validate",
+		"test": "vitest run",
 		"changelog": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md -s",
 		"version": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md -s && git add CHANGELOG.md"
 	},
@@ -48,6 +49,7 @@
 		"conventional-changelog-cli": "^5.0.0",
 		"conventional-changelog-conventionalcommits": "^8.0.0",
 		"typescript": "^5.8.2",
+		"vitest": "^5.0.3",
 		"vue": "^3.5.13"
 	},
 	"dependencies": {
