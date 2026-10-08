@@ -29,15 +29,17 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v6
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
           node-version: '24.x'
       - name: Install dependencies
-        run: npm install 
+        run: pnpm install --frozen-lockfile
       - name: Build
-        run: npm run build
+        run: pnpm run build
       - name: Test
-        run: npm run test
+        run: pnpm run test
       - name: Validate
-        run: npm run validate
+        run: pnpm run validate
