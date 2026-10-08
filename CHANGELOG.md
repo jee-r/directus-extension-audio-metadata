@@ -1,3 +1,22 @@
+## [1.2.1](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.2.0...v1.2.1) (2026-10-08)
+
+### Documentation
+
+* add CLAUDE.md with project commands and architecture ([03451e2](https://github.com/jee-r/directus-extension-audio-metadata/commit/03451e2333685c49c466408dd492c0fd70965f89))
+
+### Chores
+
+* **deps:** update actions/checkout action to v6 ([435a004](https://github.com/jee-r/directus-extension-audio-metadata/commit/435a004a1857bbb4aedeaef97d67b9b7708b40a4))
+* **deps:** update dependency @types/node to v22.20.5 ([#11](https://github.com/jee-r/directus-extension-audio-metadata/issues/11)) ([d19f527](https://github.com/jee-r/directus-extension-audio-metadata/commit/d19f5277d8ce518ed197afca15caf166537675ee))
+* **deps:** update dependency music-metadata to v11.16.1 ([#18](https://github.com/jee-r/directus-extension-audio-metadata/issues/18)) ([189960c](https://github.com/jee-r/directus-extension-audio-metadata/commit/189960c2788052b5ec6a6fa1fea66ef4eb90ed4a))
+* **deps:** update dependency node to v24 ([6e655b8](https://github.com/jee-r/directus-extension-audio-metadata/commit/6e655b8598807a60de3bad239736063b33841856))
+* **deps:** update dependency typescript to v5.9.3 ([#19](https://github.com/jee-r/directus-extension-audio-metadata/issues/19)) ([db4c2b9](https://github.com/jee-r/directus-extension-audio-metadata/commit/db4c2b9944f2e8c6ec85d0800f97396f2ead2b64))
+* **deps:** update dependency vue to v3.5.43 ([#12](https://github.com/jee-r/directus-extension-audio-metadata/issues/12)) ([894eab7](https://github.com/jee-r/directus-extension-audio-metadata/commit/894eab7a645a675ee2e805e3d01480e5456df77e))
+* **deps:** update github artifact actions to v7 ([eed31d0](https://github.com/jee-r/directus-extension-audio-metadata/commit/eed31d0cdbec74740a3218136e9fc64463bdfab7))
+
+### Continuous Integration
+
+* **release:** switch npm publish to OIDC trusted publishing ([9c63c2a](https://github.com/jee-r/directus-extension-audio-metadata/commit/9c63c2a7eac8e093f680c27ae812716de9c1c541))
 ## [1.2.0](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.1.1...v1.2.0) (2026-06-17)
 
 ### Chores
