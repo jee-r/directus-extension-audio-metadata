@@ -41,13 +41,13 @@
 		"link": "directus-extension link",
 		"validate": "directus-extension validate",
 		"test": "vitest run",
-		"changelog": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md -s",
-		"version": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md -s && git add CHANGELOG.md"
+		"changelog": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md",
+		"version": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md && git add CHANGELOG.md"
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "18.0.0",
 		"@types/node": "^24.0.0",
-		"conventional-changelog-cli": "^5.0.0",
+		"conventional-changelog": "^8.1.3",
 		"conventional-changelog-conventionalcommits": "^8.0.0",
 		"typescript": "^5.8.2",
 		"vitest": "^5.0.3",
