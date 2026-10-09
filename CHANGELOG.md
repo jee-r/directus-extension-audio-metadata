@@ -1,3 +1,36 @@
+## [1.2.2](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.2.1...v1.2.2) (2026-10-09)
+
+### Bug Fixes
+
+* **deps:** update dependency music-metadata to v12 ([80ea412](https://github.com/jee-r/directus-extension-audio-metadata/commit/80ea41286aa107d836752d661b3338fbc60d34aa))
+* **tsconfig:** switch moduleResolution to bundler for TypeScript 7 ([8614471](https://github.com/jee-r/directus-extension-audio-metadata/commit/8614471b7861002e2c3ff89e889a8a570c48aa42))
+
+### Documentation
+
+* **claude:** document test commands and fixtures [skip ci] ([abfc06c](https://github.com/jee-r/directus-extension-audio-metadata/commit/abfc06c151e7f847ed9a4592aae4f0cc81f31cf4))
+
+### Chores
+
+* **deps:** replace deprecated conventional-changelog-cli with conventional-changelog ([251963c](https://github.com/jee-r/directus-extension-audio-metadata/commit/251963cec6c4d0e7311591901fd5ae2fa9310385))
+* **deps:** update actions/checkout action to v7 ([1a2dfd2](https://github.com/jee-r/directus-extension-audio-metadata/commit/1a2dfd20fe5dcad72792845e1147500fec6a2f5c))
+* **deps:** update actions/setup-node action to v7 ([c53c566](https://github.com/jee-r/directus-extension-audio-metadata/commit/c53c56617f8416ef999d925b6ffd872c7efe9e49))
+* **deps:** update dependency @directus/extensions-sdk to v18.0.6 ([40606d6](https://github.com/jee-r/directus-extension-audio-metadata/commit/40606d649dc6c651ed8e7fb2df1204061a6fc4f9))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v10 ([aef8469](https://github.com/jee-r/directus-extension-audio-metadata/commit/aef8469538f2ae575d06739a78899f22d6564e57))
+* **deps:** update dependency typescript to v7 ([4fb7167](https://github.com/jee-r/directus-extension-audio-metadata/commit/4fb7167c7129696b1d085081263a1ef4aa77df57))
+* **deps:** update pnpm to v12.10.1 ([5274846](https://github.com/jee-r/directus-extension-audio-metadata/commit/52748465c07590f763a801b2aeb1ea4d1990c93f))
+
+### Tests
+
+* **api:** add vitest suite with mocked-fetch fixtures ([c690252](https://github.com/jee-r/directus-extension-audio-metadata/commit/c690252b020c1e13dd8ffed048553b7c4b46e979))
+
+### Continuous Integration
+
+* **build_test:** run test suite before validate ([9c8c19d](https://github.com/jee-r/directus-extension-audio-metadata/commit/9c8c19d754a471aed07e9ab6004dceb6fadc8449))
+* **build_test:** trigger Build_Test on push to main and dev ([41fde1b](https://github.com/jee-r/directus-extension-audio-metadata/commit/41fde1bed0c8b0d26cc55897eedc564cd66865d7))
+* **tooling:** bump pnpm/action-setup to v6 ([86ca953](https://github.com/jee-r/directus-extension-audio-metadata/commit/86ca953b9f5352eb24b358572390c7d5b5b00e2c))
+* **tooling:** migrate from npm to pnpm ([377d6aa](https://github.com/jee-r/directus-extension-audio-metadata/commit/377d6aab5b87b382a2b781ef5964902c3277fcbc))
+* **tooling:** switch workflows and package.json to pnpm ([c281c97](https://github.com/jee-r/directus-extension-audio-metadata/commit/c281c97e26334a088703dbd46794219d7c906f41))
+
 ## [1.2.1](https://github.com/jee-r/directus-extension-audio-metadata/compare/v1.2.0...v1.2.1) (2026-10-08)
 
 ### Documentation

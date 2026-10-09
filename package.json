@@ -12,7 +12,7 @@
 		"url": "https://github.com/codihaus/directus-generate-migration/issues"
 	},
 	"license": "MIT",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"packageManager": "pnpm@12.10.1",
 	"keywords": [
 		"directus",
