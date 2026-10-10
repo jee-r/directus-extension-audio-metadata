@@ -168,7 +168,7 @@ importers:
     dependencies:
       music-metadata:
         specifier: ^12.0.0
-        version: 12.0.0
+        version: 12.1.0
     devDependencies:
       '@directus/extensions-sdk':
         specifier: 18.0.6
@@ -2020,8 +2020,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  music-metadata@12.0.0:
-    resolution: {integrity: sha512-+yVgI1WNa0S9aAZch1WMAsmBrP7+5YGmhgPaRHiqF5KmuRJ7vuynn7OmKZRu3pr2W83N3bE+6Bw/pn8r4hf5sQ==}
+  music-metadata@12.1.0:
+    resolution: {integrity: sha512-qKh935MzhY8MNtn+l9cTQldYyQuAWbtbV/hcclWL1jNoiig7CvCCVRpUI4Y4QD4VoV4nz/e07uxa0AUwNz5bvA==}
     engines: {node: '>=22'}
 
   mute-stream@2.0.0:
@@ -4373,7 +4373,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  music-metadata@12.0.0:
+  music-metadata@12.1.0:
     dependencies:
       '@borewit/text-codec': 0.2.2
       '@tokenizer/token': 0.3.0
